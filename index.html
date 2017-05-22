@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sin 5entido</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--favicon--->
+<link rel="icon" type="image/png" href="images/favicon.png"/>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/libs/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/libs/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/libs/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/game.css">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/libs/jquery.min.js"></script>
+<script src="js/libs/jquery-ui.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/libs/bootstrap.min.js"></script>
+<!--Componente que hace la ruleta-->
+<script src="js/roulette.js"></script>	
+
+<!--Datos de las preguntas-->
+<script src="js/db.js"></script>
+<!--Logica del juego-->
+<script src="js/game.js"></script>
+
+<style> 
+@font-face {
+    font-family: Archivo Narrow;
+    src: url(fonts/ArchivoNarrow-Regular.ttf);
+}
+@font-face {
+    font-family: Fredoka One;
+    src: url(fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(fonts/WorkSans-Regular.ttf);
+}
+</style>
+
+</head>
+
+<body>
+<div class="container-fluid">
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-5">
+		<img class="logo" src="images/logo.png" alt="SIN 5ENTIDO">
+	</div>
+	<div class="categorias col-sm-5">
+ 	 	<img id="0" src="images/categorias/coronaA.png" alt="Corona">
+		<img id="1" src="images/categorias/lenguaA.png" alt="Gusto">
+		<img id="2" src="images/categorias/orejaA.png" alt="Oido">
+		<img id="3" src="images/categorias/narizA.png" alt="Olfato">
+		<img id="4" src="images/categorias/dedoA.png" alt="Tacto">
+		<img id="5" src="images/categorias/ojoA.png" alt="Vista">
+	</div>
+	<div class="instrucciones">
+		<img id="help" src="images/mini-btn/instrucciones.png">
+	</div>
+	<div class="instrucciones">
+		<img id="mute" src="images/mini-btn/sound.png">
+	</div>
+	<div class="col-sm-1"></div>
+</div>
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-4 col-1">
+		<div class="label-roulette1">CATEGORIA</div>
+		<div class="roulette1 r-categ">
+			 <img src="images/categ/corona.png" alt="Corona">
+			 <img src="images/categ/gusto.png" alt="Gusto">
+			 <img src="images/categ/oido.png" alt="Oido">
+			 <img src="images/categ/olfato.png" alt="Olfato">
+			 <img src="images/categ/tacto.png" alt="Tacto">
+			 <img src="images/categ/vista.png" alt="Vista">
+		</div>
+	</div>
+	<div class="col-sm-1 btn_container" >
+		<button class="start"><p class="rotate">SPIN</p></button>
+	</div>
+	<div class="col-sm-4 col-2">
+		<div class="label-roulette2"> PREGUNTA</div>
+		<div class="roulette2 r-preg">
+			<img src="images/preg/Preg1.png" alt="Pregunta 1">
+			<img src="images/preg/Preg2.png" alt="Pregunta 2">
+			<img src="images/preg/Preg3.png" alt="Pregunta 3">
+			<img src="images/preg/Preg4.png" alt="Pregunta 4">
+			<img src="images/preg/Preg5.png" alt="Pregunta 5">
+			<img src="images/preg/Preg6.png" alt="Pregunta 6">
+			<img src="images/preg/Preg7.png" alt="Pregunta 7">
+			<img src="images/preg/Preg8.png" alt="Pregunta 8">
+			<img src="images/preg/Preg9.png" alt="Pregunta 9">
+			<img src="images/preg/Preg10.png" alt="Pregunta 10">
+		</div>
+	</div>
+	<div class="col-sm-2">
+	</div>
+</div>
+
+<div id="audioSlider"></div>
+
+<!-- Modal -->
+<div id="qaModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content preg">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h1 id="pregunta" class="modal-title"><b>Pregunta....</b></h1>
+		</div>
+		<div id="radioctl" class="modal-body">
+			<div class="radio">
+			  <label><input type="radio" name="optradio" value="1"><p id="o1">Option 1</p></label>
+			</div>
+			<div class="radio">
+			  <label><input type="radio" name="optradio" value="2"><p id="o2">Option 2</p></label>
+			</div>
+			<div class="radio">
+			  <label><input type="radio" name="optradio" value="3"><p id="o3">Option 3</p></label>
+			</div>
+			<div class="radio">
+			  <label><input type="radio" name="optradio" value="4"><p id="o4">Option 4</p></label>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<div class="col-sm-8" >
+				<div id="progressbar"></div>
+			</div>
+			<div class="col-sm-4" >
+				<button id="abtn" type="button" class="btn-modal-preg" data-dismiss="modal">RESPONDER</button>
+			</div>
+		</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="goverModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<img src="images/instrucciones/6.png" style="width:100%;" >
+			</div>
+			<div class="modal-footer">
+				<button id="gobtn" type="button" class="btn-modal-go" data-dismiss="modal">EMPEZAR DE NUEVO</button>
+			</div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="helpModal" class="modal fade" role="dialog">
+  <div class="modal-dialog help">
+    <!-- Modal content-->
+    <div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Instrucciones</h4>
+			</div>
+			<div class="modal-body">
+				<div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+					<div class="item active">
+					  <img src="images/instrucciones/1.png">
+					</div>
+
+					<div class="item">
+					  <img src="images/instrucciones/2.png">
+					</div>
+
+					<div class="item">
+					  <img src="images/instrucciones/3.png">
+					</div>
+					
+					<div class="item">
+					  <img src="images/instrucciones/4.png">
+					</div>
+					
+					<div class="item">
+					  <img src="images/instrucciones/5.png">
+					</div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				  </a>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button id="hbtn" type="button" class="btn-modal-inst" data-dismiss="modal">LISTO!</button>
+			</div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
