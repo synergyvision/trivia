@@ -1,5 +1,5 @@
 ﻿body {
-	background-color: #173958;
+	background-color: #112546;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -115,7 +115,7 @@ button.start{
 	margin-left: 17px;
 	height: 335px;
 	width: 70px;
-	background-color: #173958;
+	background-color: #112546;
 	color: white;
 	font-size: 37px;
 	letter-spacing: 32px;
@@ -131,11 +131,11 @@ button.start{
 	height: 335px;
 	width: 70px;
 	background-color: #ffbd4a;
-	color: #173958;
+	color: #112546;
 	font-size: 45px;
 	letter-spacing: 37px;
 	margin-top:76px;
-	border: 5px solid #173958;
+	border: 5px solid #112546;
 	border-radius: 35px;
 	outline: none;
 }
@@ -181,7 +181,7 @@ button.start{
 
 .modal-content{
 	border-radius: 20px;
-	background-color: #173958;
+	background-color: #112546;
 }
 
 .modal-title.inst{
@@ -214,8 +214,8 @@ button.start{
     width: 78px;
     height: 38px;
 	outline: none;
-	background-color: #173958; 
-	border: 3px solid #173958;
+	background-color: #112546; 
+	border: 3px solid #112546;
 	border-radius: 10px;
 	font-family: 'Nunito',serif;
 	color: white;
@@ -228,10 +228,10 @@ button.start{
     height: 42px;
 	outline: none;
 	background-color: white; 
-	border: 3px solid #173958;
+	border: 3px solid #112546;
 	border-radius: 10px;
 	font-family: 'Nunito',serif;
-	color: #173958;
+	color: #112546;
 	font-size: 20px;
 	}
 	
@@ -240,8 +240,8 @@ button.start{
 	width: 130px;
     height: 38px;
 	outline: none;
-	background-color: #173958; 
-	border: 3px solid #173958;
+	background-color: #112546; 
+	border: 3px solid #112546;
 	border-radius: 10px;
 	font-family: 'Nunito',serif;
 	color: white;
@@ -255,10 +255,10 @@ button.start{
     height: 42px;
 	outline: none;
 	background-color: white; 
-	border: 3px solid #173958;
+	border: 3px solid #112546;
 	border-radius: 10px;
 	font-family: 'Nunito',serif;
-	color: #173958;
+	color: #112546;
 	font-size: 20px;
 }
 
@@ -266,8 +266,8 @@ button.start{
     width: 200px;
     height: 38px;
 	outline: none;
-	background-color: #173958; 
-	border: 3px solid #173958;
+	background-color: #112546; 
+	border: 3px solid #112546;
 	border-radius: 10px;
 	font-family: 'Nunito',serif;
 	color: white;
@@ -280,10 +280,10 @@ button.start{
     height: 42px;
 	outline: none;
 	background-color: white; 
-	border: 3px solid #173958;
+	border: 3px solid #112546;
 	border-radius: 10px;
 	font-family: 'Nunito',serif;
-	color: #173958;
+	color: #112546;
 	font-size: 20px;
 }
 
