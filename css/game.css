@@ -85,17 +85,19 @@ div.roulette2 {
 	margin-top: 10px;
 	float: right;
 	border: 10px  solid #ffffff;
-	border-radius: 14px;
+	border-radius: 10px;
 	border-right-width: 17px;
 }
 
 .r-preg {
 	margin:0px;
+	top: -2px;
 }
 
 .r-preg img{
-	width:350px;
-	height:350px;
+	width: 354px;
+	height: 350px;
+	margin-left: -3px;
 }
 
 button.start{
