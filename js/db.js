@@ -1,5 +1,5 @@
-﻿QandAObj = { "qa":[{
- 	"list": [{ //listassss corona
+QandAObj = { "qa":[{
+ 	"list": [{
  		"q": "¿Cuál es el órgano más fuerte del cuerpo humano?",
  		"o": ["Glúteos", "Lengua", "Abdomen", "Ninguna de las anteriores"],
  		"a": "2"
@@ -121,7 +121,7 @@
  	}, {
  		"q": "¿Cuál de estas afirmaciones es correcta?",
  		"o": ["El tímpano se divide en oído interno y externo", "El oído informa acerca de la posición del cuerpo en el espacio", "La oreja está formada por hueso blando", "Ninguna es correcta"],
- 		"a": "2" 
+ 		"a": "2"
  	}]
  }, {
  	"list": [{//listasss olfato
@@ -178,7 +178,7 @@
  		"q": "¿Cuál de las opciones es una estructura accesoria de la piel?",
  		"o": ["Glándulas hipofisiarias", "Glándula sebácea", "Todas las anteriores", "Ninguna de las anteriores"],
  		"a": "2"
- 	}, { 
+ 	}, {
  		"q": "La uña esta compuesta por...",
  		"o": ["Células muertas", "Células óseas", "Células sobrantes", "Ninguna de las anteriores"],
  		"a": "1"
