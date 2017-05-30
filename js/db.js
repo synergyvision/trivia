@@ -84,44 +84,45 @@ QandAObj = { "qa":[{
  	}]
  }, {
  	"list": [ {
- 		"q": "¿Cuáles son las clases de equilibrio del organismo humano?",
- 		"o": ["Espacial y automático", "Dinámico y espacial", "Estático y dinámico", "Ninguna de las anteriores"],
+ 		"q": "¿Qué es el valor facial?",
+ 		"o": ["Cantidad de dinero que se paga por el bono en el mercado en cierto momento", "El que figura como valor nominal del bono", "Valor de un activo calculado en función de su utilidad", "Todas las anteriores"],
+ 		"a": "2"
+ 	}, {
+ 		"q": "La tasa cupón puede ser definida como:",
+ 		"o": ["Porcentaje que se aplica al monto de inversión y muestra la ganancia obtenida", "Tasa de penalización por mora", "Tipo de descuento que hace que el valor actual neto de una serie de flujos de dinero sea cero", "Tasa de interés que se paga sobre un Bono"],
+ 		"a": "4"
+ 	}, {
+ 		"q": "La Duración de un bono se define como:",
+ 		"o": ["Fecha prevista específica en la que se reembolsará el capital al inversor", "La media del vencimiento de todos los flujos de caja de ese bono", "Fecha en que se pagan los cupones del bono", "Ninguna de las anteriores"],
+ 		"a": "2"
+ 	}, {
+ 		"q": "El Rendimiento (YTM) de un bono se define como: ",
+ 		"o": ["El rendimiento total anticipado en un bono si se mantiene hasta el vencimiento", "Flujo de dinero en intereses que recibe un inversionista sobre el capital invertido", "La media del vencimiento de todos los flujos de caja de ese bono", "Diferencia entre lo que paga el inversor por el activo y el nominal"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "Un bono vendido con prima se refiere a:",
+ 		"o": ["Precio del bono igual al valor facial", "Precio del bono menor al valor facial", "Precio del bono mayor al valor facial", "Precio del bono más intereses"],
  		"a": "3"
- 	}, {
- 		"q": "¿Qué tipo de receptores se encargan de la audición?",
- 		"o": ["Mecanoceptor", "Fotorreceptor", "Nociceptor", "Ninguna de las anteriores"],
- 		"a": "4"
- 	}, {
- 		"q": "¿Dónde se puede encontrar la endolinfa?",
- 		"o": ["Rampa tímpanica", "Rampa vestibular", "Rampa coclear", "Ducto coclear"],
- 		"a": "4"
- 	}, {
- 		"q": "¿Cuáles son las partes del laberinto óseo?",
- 		"o": ["Oido interno y medio", "Martillo, yunque y estribo", "Vestíbulo, cóclea y conductos semicirculares", "Ninguna de los anteriores"],
- 		"a": "1"
- 	}, {//faltan 1 oido
- 		"q": "¿Dónde se disipan las vibraciones?",
- 		"o": ["Rampa vestibular", "Ventana oval", "Ventana redonda", "Rampa tímpanica"],
- 		"a": "1"
  	},{
- 		"q": "¿Qué célula reacciona a la gravedad y el movimiento?",
- 		"o": ["Celulas timpánica", "Célula ciliar", "Célula oval", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "¿Cómo se llama el líquido donde se encuentran los mecanorreceptores?",
- 		"o": ["Líquido sáculo", "Líquido linfa", "Líquido timpánico", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "¿Cuándo una frecuencia se vuelve ultrasonido? ",
- 		"o": ["Cuando es mayor a 20000 Hz", "Cuando es mayor a 40000 Hz", "Cuando es mayor de 15000 Hz", "Ninguna de las anteriores"],		"a": "2"
- 	}, {
- 		"q": "¿Cuál de estos nervios transmitirá información del equilibrio?",
- 		"o": ["Nervio vestibular", "Nervio trigémino", "Nervio abducens", "Ninguna de las anteriores"],
+ 		"q": "¿Qué es el rendimiento corriente (Current Yield)?",
+ 		"o": ["Es el flujo de dinero en intereses que recibe un inversionista sobre el capital invertido", "El rendimiento total anticipado en un bono si se mantiene hasta el vencimiento", "Diferencia entre lo que paga el inversor por el activo y el nominal", "Son los intereses calculados desde la emisión de un bono, o desde el último cupón pagado hasta la fecha de transacción"],
  		"a": "1"
  	}, {
- 		"q": "¿Cuál de estas afirmaciones es correcta?",
- 		"o": ["El tímpano se divide en oído interno y externo", "El oído informa acerca de la posición del cuerpo en el espacio", "La oreja está formada por hueso blando", "Ninguna es correcta"],
+ 		"q": "Los intereses acumulados pueden ser definidos como:",
+ 		"o": ["Porcentaje que se aplica al monto de inversión y muestra la ganancia obtenida", "Intereses totales que se pagan sobre un Bono", "Aquellos calculados desde la emision hasta el vencimiento del bono", "Aquellos calculados desde la emisión de un bono, o desde el último cupón pagado hasta la fecha de transacción"],
+ 		"a": "4"
+ 	}, {
+ 		"q": "¿Cúal rendimiento no varía durante la vida del bono?",
+ 		"o": ["Rendimiento Nominal", "Rendimiento Corriente", "Rendimiento hasta el vencimiento", "Rendimiento a la venta (Yield to Put)"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "El rendimiento nominal también es conocido como:",
+ 		"o": ["Tasa de Interés", "Tasa Cupón", "Precio de Mercado", "Tasa de emisión"],
  		"a": "2"
+ 	}, {
+ 		"q": "¿Cuándo un bono es vendido con prima, ¿cuál medida de rendimiento es mayor?",
+ 		"o": ["Rendimiento Nominal (Tasa cupón)", "Rendimiento Corriente", "Rendimiento al vencimiento", "Rendimiento de compra (Yield to call)"],
+ 		"a": "1"
  	}]
  }, {
  	"list": [{//listasss olfato
