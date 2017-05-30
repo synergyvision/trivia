@@ -41,46 +41,46 @@ QandAObj = { "qa":[{
  		"a": "1"
  	},]
  }, {
- 	"list": [{ //faltan 2 gusto
- 		"q": "¿Dónde se encuentra la zona que se enfoca en percibir lo amargo?",
- 		"o": ["En la punta", "En los bordes", "En el paladar", "Ninguna de las anteriores"],
- 		"a": "4"//faltaaaaa
- 	}, {
- 		"q": "¿Cuántos sabores pueden distinguir los quimiorreceptores de la lengua?",
- 		"o": ["6", "5", "7", "3"],
- 		"a": "2"
- 	}, {
- 		"q": "¿En qué procesos interviene la lengua?",
- 		"o": ["Masticación", "Habla", "Todas las anteriores", "Ninguna de las anteriores"],
- 		"a": "3"
- 	}, {
- 		"q": "Sentimos calor en la lengua gracias a...",
- 		"o": ["Papilas filiformes", "Papilas fungiformes", "Papilas caliciformes", "Todas las anteriores"],
- 		"a": "1"
- 	}, {
- 		"q": "¿Porqué la lengua tiene apariencia rugosa? Gracias a...",
- 		"o": ["El roce con el paladar", "Las papilas gustativas", "Todas las anteriores", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "¿Cuál tipo de papila gustativa se encarga de percibir el sabor salado?",
- 		"o": ["Filiforme", "Fungiforme", "Caliciforme", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "¿Dónde se encuentran los quimiorreceptores de la lengua?",
- 		"o": ["Papilas gustativas", "Saliva", "Todas las anteriores", "Ninguna de las anteriores"],
+ 	"list": [{
+ 		"q": "El Standard & Poor's 500:",
+ 		"o": ["Sigue las acciones de 500 compañias", "Sigue exclusivamanete acciones del NYSE", "Sigue las acciones de las 500 compañías más grandes del NYSE", "Sigue las acciones de las 500 compañías más grandes listadas en NYSE o NASDAQ"],
  		"a": "4"
  	}, {
- 		"q": "¿Cuál de estas afirmaciones es correcta?",
- 		"o": ["En el paladar existen quimiorreceptores", "En la punta se detecta lo amargo", "Todas las anteriores", "Ninguna de las anteriores"],
- 		"a": "1"//faltaaaaa
+ 		"q": "Las ordenes más comunes que pueden colocar los inversionistas son:",
+ 		"o": ["Mercado, Limit y Stop", "Limit y Stop", "Take Profit y Stop Loss", "Sell y Buy"],
+ 		"a": "1"
  	}, {
- 		"q": "¿Qué nervios intervienen en el gusto?",
- 		"o": ["VII y V", "IX, VII y X", "Todos los anteriores", "II y IX"],
+ 		"q": "El Dow Jones Industrial Average:",
+ 		"o": ["Sigue las acciones de 100 compañías", "Sigue las acciones de 30 compañías grandes", "Sigue las acciones de las compañías más grandes de U.S.A.", "Sigue las acciones de 30 compañías del NASDAQ"],
  		"a": "2"
  	}, {
- 		"q": "¿Cuál de estas afirmaciones es correcta?",
- 		"o": ["El sabor 'umami' fue descubrierto por un japonés", "La papila filiforme capta lo salado", "Las quimiorreceptores se encuentran en los botones gustativo", "Ninguna es correcta"],
+ 		"q": "Un índice puede ser definido como:",
+ 		"o": ["Un número que varía en el tiempo reflejando los cambios en los precios de un grupo de acciones", "El precio de una acción", "La variación del precio de las empresas más representativas del grupo de acciones", "La variación promedio del precio de las empresas más grandes"],
  		"a": "1"
+ 	}, {
+ 		"q": "El índice que sigue las acciones de compañías de mediana y pequeña capitalización de mercado es:",
+ 		"o": ["NYSE", "Russell 2000", "NASDAQ", "Dow Jones"],
+ 		"a": "2"
+ 	}, {
+ 		"q": "La capitalización de mercado se refiere a:",
+ 		"o": ["El número de acciones, de una empresa, en circulación", "El capital social de la empresa", "El precio por acción en un momento dado multiplicado por el número de acciones en circulación de una empresa de capital abierto", "La cantidad de acciones preferentes de una empresa"],
+ 		"a": "3"
+ 	}, {
+ 		"q": "¿Qué es el coeficiente Beta?",
+ 		"o": ["Es una medida de la volatilidad de un activo", "Es el precio esperado o estimado de la acción", "Es el dividendo esperado dividido entre el precio actual", "Es una medida de la volatilidad de un activo relativa a la variabilidad del mercado"],
+ 		"a": "4"
+ 	}, {
+ 		"q": "¿Qué es el EBITDA?",
+ 		"o": ["Es el beneficio de la empresa antes de intereses, impuestos y amortización", "Es el beneficio de la empresa si los intereses fueran cero", "La diferencia entre el activo circulante necesario para las operaciones de la empresa y el pasivo circulante sin deuda financiera", "Es el beneficio dividido entre los fondos propios"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "¿Qué es el ROE?",
+ 		"o": ["Es el beneficio de la empresa si los intereses fueran cero", "Es una medida de la volatilidad de un activo", "Es el precio esperado o estimado de la acción", "Es el beneficio dividido entre los fondos propios"],
+ 		"a": "4"
+ 	}, {
+ 		"q": "¿Los dividendos de una empresa pueden ser definidos como:",
+ 		"o": ["Partes en las que se divide el capital dentro de una sociedad anónima", "Una medida de la volatilidad de un activo", "Parte del beneficio que se reparte entre los accionistas de una compañía", "Beneficios divididos entre los fondos propios"],
+ 		"a": "3"
  	}]
  }, {
  	"list": [ {
