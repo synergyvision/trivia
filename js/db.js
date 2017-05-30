@@ -125,46 +125,46 @@ QandAObj = { "qa":[{
  		"a": "1"
  	}]
  }, {
- 	"list": [{//listasss olfato
- 		"q": "¿Qué tipo de receptores se encuentran en la nariz?",
- 		"o": ["Mecanorreceptores", "Quimioceptores", "Nociceptores", "Ninguna de las anteriores"],
- 		"a": "4"
- 	}, {
- 		"q": "¿Cómo se llama el hueso que separa el bulbo olfatorio de la cavidad nasal?",
- 		"o": ["Cretoides", "Zetoides", "Etmoides", "Zeptoides"],
- 		"a": "3"
- 	}, {
- 		"q": "¿Cuáles son las células que se asocian a las células olfatorias?",
- 		"o": ["Glandulares y ciliares", "Ciliares y sustentaculares", "Glandulares y sustentaculares", "Todas las anteriores"],
- 		"a": "3"
- 	},{
- 		"q": "¿En qué parte de la cavidad nasal se calienta el aire?",
- 		"o": ["Fosa nasal", "Bulbo olfatorio", "Pituitaria roja", "Ninguna de las anteriores"],
- 		"a": "3"
- 	}, {
- 		"q": "¿Dónde se ubica el bulbo olfatorio?",
- 		"o": ["Lóbulo occipital", "Lóbulo frontal", "Lóbulo temporal", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "¿Qué promedio de vida tiene una célula olfatoria?",
- 		"o": ["3 meses", "15 días", "1 mes", "45 días"],
- 		"a": "3"
- 	}, {
- 		"q": "¿Dónde se localizan las células olfatorias?",
- 		"o": ["Fosa nasal", "Pituitaria roja", "Pituitaria amarilla", "Todas las anteriores"],
- 		"a": "3"
- 	}, {
- 		"q": "¿Qué funciones tienen las células mitrales?",
- 		"o": ["Transmiten información a la corteza cerebral", "Receptores accesorios", "Todas las anteriores", "Ninguna de las anteriores"],
+ 	"list": [{
+ 		"q": "¿Qué es un Pip?",
+ 		"o": ["Es el mínimo cambio posible en el valor de un par de divisas", "Es el primer decimal en la cotización", "Es el tamaño de la operación", "Todas las anteriores"],
  		"a": "1"
  	}, {
- 		"q": "¿Qué pasa cuando se olfatea el mismo olor durante un tiempo determinado?",
- 		"o": ["Se mantiene igual", "Se realza", "Disminuye", "El olor cambia"],
+ 		"q": "¿Qué es un lote?",
+ 		"o": ["Es el tamaño máximo de la operación", "Es el mínimo cambio posible en el valor de un par de divisas", "Es el volúmen de la operación", "Es el último decimal en la cotización"],
  		"a": "3"
+ 	}, {
+ 		"q": "El tamaño estandar de un lote es:",
+ 		"o": ["10.000 unidades", "1.000 unidades", "10.000 unidades", "100.000 unidades"],
+ 		"a": "4"
+ 	},{
+ 		"q": "¿Qué permite el apalancamiento en FOREX?",
+ 		"o": ["Controlar una mayor cantidad de dinero en una transacción que el depositado en la cuenta", "Establecer un límite de pérdida en la operación", "Establecer un límite de ganancias en la operación", "Ninguna de las anteriores"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "El margen puede ser definido como:",
+ 		"o": ["Cantidad en garantía requerida para mantener sus posiciones abiertas", "Límite establecido para tomar ganancias", "Límite máximo para asumir pérdidas", "Tamaño de la operación"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "Cuando hablamos del par EUR/USD, ¿Cuál es la moneda base?:",
+ 		"o": ["Dólar", "Euro"],
+ 		"a": "2"
+ 	}, {
+ 		"q": "Cuando se mira la tasa de cambio del EUR/USD, se puede ver:",
+ 		"o": ["Cuantos USD necesitas para comprar un Euro", "Cuantos Euros necesitas para comprar un USD"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "El par GBP/USD es conocido como:",
+ 		"o": ["Kiwi", "Buck", "Cable", "Loonie"],
+ 		"a": "3"
+ 	}, {
+ 		"q": "El par AUD/USD es conocido como:",
+ 		"o": ["Buck", "Cable", "Yen", "Aussie"],
+ 		"a": "4"
  	},  {
- 		"q": "¿Cuál de estas afirmaciones es correcta?",
- 		"o": ["La célula olfatoria es una neurona bipolar", "Los cilios entran en contacto con el moco", "Todas las anteriores", "Ninguna de las anteriores"],
- 		"a": "3"
+ 		"q": "De todas las divisas las tres monedas más operadas (en orden de importancia) en el mundo son: ",
+ 		"o": ["Yen, Dólar y Euro", "Euro, Yen y Dólar", "Dólar, Euro y Libra", "Dólar, Euro y Yen"],
+ 		"a": "4"
  	}]
  }, {
  	"list": [{ //listassss tacto
