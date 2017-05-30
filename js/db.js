@@ -1,44 +1,44 @@
 QandAObj = { "qa":[{
  	"list": [{
- 		"q": "¿Cuál es el órgano más fuerte del cuerpo humano?",
- 		"o": ["Glúteos", "Lengua", "Abdomen", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "¿Cuál es el sentido más sensible del cuerpo humano?",
- 		"o": ["Olfato", "Vista", "Oido", "Gusto"],
+ 		"q": "Las Finanzas son una rama de la:",
+ 		"o": ["Economía y Administración de Empresas", "Economía", "Administración", "Contaduría"],
  		"a": "1"
  	}, {
- 		"q": "¿Cuál es el órgano más grande del cuerpo humano?",
- 		"o": ["Intestinos", "Hígado", "Pulmones", "Ninguna de las anteriores"],
+ 		"q": "¿Qué es la amortización?",
+ 		"o": ["Es la pérdida de valor de los activos fijos", "Proceso de distribución de gasto en el tiempo de un valor duradero", "Son reducciones en el valor de los pasivos", "Ninguna de las anteriores"],
+ 		"a": "2"
+ 	}, {
+ 		"q": "¿Qué es la deuda?",
+ 		"o": ["Compromiso de pago obligado entre dos entidades", "Es aquella que los estados tienen frente a otros estados", "Obligaciones que se mantienen con particulares", "Cantidades que recibe una empresa por la venta de sus productos o servicios"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "La Deuda pública se refiera a...",
+ 		"o": ["Compromiso de pago obligado entre dos entidades", "Obligaciones que se mantienen con particulares", "Un derecho real de garantía", "conjunto de deudas que mantiene un Estado frente a los particulares u otros países"],
  		"a": "4"
  	}, {
- 		"q": "¿En qué se asemejan el gusto y el olfato?",
- 		"o": ["En nada", "Tienen quimioceptores", "Tienen mecanorreceptores", "Reciben estímulos químicos"],
+ 		"q": "¿Cuáles son las áreas fundamentales de estudio de las Finanzas",
+ 		"o": ["Mercado de dinero y de capitales", "Inversiones", "Finanzas de las empresas", "Todas las anteriores"],
  		"a": "4"
  	}, {
- 		"q": "Es un estímulo químico...",
- 		"o": ["La luz", "El sonido", "El olor", "Ninguna de las anteriores"],
+ 		"q": "¿Qué es el mercado de dinero?",
+ 		"o": ["Conjunto de mercados financieros", "Aquel en el que se negocian instrumentos financieros de gran liquidez y vencimientos muy cortos", "Aquel en el compradores y vendedores introducen ofertas competitivas al mismo tiempo", "Aquel que se ocupa de la emisión de nuevos valores en los mercados"],
+ 		"a": "2"
+ 	}, {
+ 		"q": "Una inversión financiera se define como...",
+ 		"o": ["Flujo del producto destinado al aumento del stock de capital", "Acción de adquirir algo a cambio de dinero", "Erogación de un activo líquido, con el objetivo de obtener un beneficio en el futuro", "Colocación de capital para obtener una ganancia inmediata"],
  		"a": "3"
  	}, {
- 		"q": "¿Qué significa 'Piloerección'?",
- 		"o": ["Pene", "Piel de Gallina", "Escalofríos", "El término no existe"],
+ 		"q": "El patrimonio neto se determina...",
+ 		"o": ["Sumando el activo y el pasivo", "Sumando el activo, el pasivo y el capital", "Restando el activo y el pasivo", "Restando el ingreso y el egreso"],
+ 		"a": "3"
+ 	}, {
+ 		"q": "¿Inflación se puede definir como...?",
+ 		"o": ["Exceso de oferta que puede provocar una disminución generalizada de los precios", "Incremento generalizado en los precios de los bienes y servicios en un período de tiempo", "Estancamiento económico a la vez que persiste el alza de los precios y los salarios", "Subida del nivel de precios muy rápida y continuada"],
  		"a": "2"
  	}, {
- 		"q": "¿Cómo se llaman los diminutos ojos de las moscas?",
- 		"o": ["Ocelos", "Polistes", "Alegolos", "Escorbutos"],
+ 		"q": "El valor de todos los bienes y servicios producidos por las compañias y personas localizadas en un país se conoce como:",
+ 		"o": ["Producto Interno Bruto", "Producto Interno Neto", "Balanza Comercial", "Indice de Precios al Consumidor"],
  		"a": "1"
- 	}, {
- 		"q": "¿Cuál de estas enfermedades puede dañar por completo la visión?",
- 		"o": ["Diabetes", "Glaucoma", "Cataratas", "Todas las anteriores"],
- 		"a": "4"
- 	}, {
- 		"q": "¿Qué significa el término 'Daltónico'?",
- 		"o": ["No percibe colores", "Mal enfoque de las cosas", "Que tiene el iris deforme", "Nervio óptico inflamado"],
- 		"a": "1"
- 	}, {
- 		"q": "¿Cuál de estos músicos era sordo?",
- 		"o": ["Mozart", "Beethoven", "Chopin", "Rachmaninoff"],
- 		"a": "2"
  	},]
  }, {
  	"list": [{ //faltan 2 gusto
