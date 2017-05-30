@@ -167,46 +167,46 @@ QandAObj = { "qa":[{
  		"a": "4"
  	}]
  }, {
- 	"list": [{ //listassss tacto
- 		"q": "¿Cuál es la capa más profunda de la piel?",
- 		"o": ["Córnea", "Epidermis", "Dermis", "Tejido subcutáneo"],
+ 	"list": [{
+ 		"q": "Martin compró 10 contratos de opción de compra con una prima de 4. ¿Cuánto ha pagado por ellos?",
+ 		"o": ["$40", "$4", "$250", "$4.000"],
+ 		"a": "4"
+ 	}, {
+ 		"q": "Pedro posee 1 contrato de opción de compra de Cellnet a $50 (1 Cellnet May 50 Call @3). Cellnet se cotiza en $48. ¿Cúal de las siguientes opciones es correcta:",
+ 		"o": ["La opción está en el dinero (in the money) por 2 puntos", "El punto de equilibrio de la opción es $47", "La opción está fuera del dinero (out of the money) por 2 puntos", "La opción está fuera del dinero (out of the money) por 5 puntos"],
  		"a": "3"
  	}, {
- 		"q": "¿Cuál es el corpúsculo de la piel que detecta el frío?",
- 		"o": ["Pacini", "Krause", "Ruffini", "Meissner"],
+ 		"q": "Las opciones permiten:",
+ 		"o": ["Comprar y vender valores", "Comprar valores en una fecha específica y a un precio específico", "Vender valores en una fecha específica y a un precio específico", "Negociar valores en una fecha específica y a un precio específico"],
+ 		"a": "4"
+ 	}, {
+ 		"q": "El punto de equilibrio de una opción ocurre cuando el precio de la acción subyacente:",
+ 		"o": ["Iguala al precio objetivo de la opción", "Iguala al precio objetivo de la opción más la prima", "Supera al precio objetivo de la opción más la prima", "Supera a la prima pagada"],
  		"a": "2"
  	}, {
- 		"q": "¿Cuál de las opciones es una estructura accesoria de la piel?",
- 		"o": ["Glándulas hipofisiarias", "Glándula sebácea", "Todas las anteriores", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "La uña esta compuesta por...",
- 		"o": ["Células muertas", "Células óseas", "Células sobrantes", "Ninguna de las anteriores"],
+ 		"q": "Considere la opción de venta TNT Dec 35. Si el precio de la acción de TNT es $32. La opción estará:",
+ 		"o": ["In the money por 3 puntos", "At the money", "Out of the money por $3", "En el punto de equilibrio"],
  		"a": "1"
  	}, {
- 		"q": "¿Cuál de estas no es una célula especializada?",
- 		"o": ["Corpúsculos de krause", "Terminaciones libres", "Corpúsculos de Meissner", "Ninguna de las anteriores"],
- 		"a": "2"
- 	}, {
- 		"q": "¿Qué función tiene la melanina en la piel?",
- 		"o": ["Pigmentación", "Elasticidad", "Renovación", "Control de temperatura"],
+ 		"q": "Una opción financiera puede ser definida como:",
+ 		"o": ["Un instrumento financiero derivado", "Una obligación", "Un instrumento financiero", "Todas las anteriores"],
  		"a": "1"
  	}, {
- 		"q": "Cavidad interna que ocupa la raíz de un pelo...",
- 		"o": ["Glándula sebacea", "Poros de la piel", "Folículo piloso", "Ninguna de las anteriores"],
- 		"a": "3"
+ 		"q": "El comprador de una opción de compra...",
+ 		"o": ["Tiene la obligación de comprar un activo subyacente a un precio predeterminado en una fecha concreta", "Tiene el derecho de vender activo en el caso de que el comprador ejerza el derecho a comprar", "Tiene la obligación de vender el activo en el caso de que el comprador ejerza el derecho a comprar", "Tiene el derecho de comprar un activo subyacente a un precio predeterminado en una fecha concreta"],
+ 		"a": "4"
  	}, {
- 		"q": "Las sensaciones de texturas son percibidas por...",
- 		"o": ["Termorreceptores", "Mecanorreceptores", "Termoceptores", "Quimioceptores"],
+ 		"q": "En el caso de una compra, si el precio de la acción cae por debajo del precio de ejercicio...",
+ 		"o": ["las pérdidas son ilimitadas y desconocidas", "las pérdidas son limitadas y conocidas"],
  		"a": "2"
  	}, {
- 		"q": "Los nociceptores se relacionan con...",
- 		"o": ["Presión", "Dolor", "Todas las anteriores", "Ninguna de las anteriores"],
- 		"a": "2"
+ 		"q": "En el caso de una venta, ",
+ 		"o": ["", "", "", ""],
+ 		"a": ""
  	}, {
- 		"q": "¿Qué capa de la piel se encuentra cerca de los vasos sanguíneos?",
- 		"o": ["Epidermis", "Bidermis", "Dermis", "Ninguna de las anteriores"],
- 		"a": "3"
+ 		"q": "La prima de una opción...",
+ 		"o": ["Es el precio que el comprador de una opción (put o call) paga al vendedor", "Es el precio que el vendedor de una opción (put o call) paga al comprador", "Son los intereses acumulados de la opción", "Varía en función de la capitalización de mercado del activo subyacente"],
+ 		"a": "1"
  	}]
  }, {
  	"list": [{ //listasss vision
