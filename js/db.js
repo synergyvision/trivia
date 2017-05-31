@@ -188,67 +188,67 @@ QandAObj = { "qa":[{
  		"o": ["In the money por 3 puntos", "At the money", "Out of the money por $3", "En el punto de equilibrio"],
  		"a": "1"
  	}, {
- 		"q": "Una opción financiera puede ser definida como:",
- 		"o": ["Un instrumento financiero derivado", "Una obligación", "Un instrumento financiero", "Todas las anteriores"],
+ 		"q": "Jaime recibe un dato sobre la acción de Apple y le indican que esta incrementará su valor pronto. No quiere perder la oportunidad, pero a su vez desea ser cauteloso. ¿Qué debería crear Jaime?",
+ 		"o": ["Un Long Call Spread", "Un Long Put Spread", "Un Short Call Spread", "Un Short Put Spread"],
  		"a": "1"
  	}, {
  		"q": "El comprador de una opción de compra...",
  		"o": ["Tiene la obligación de comprar un activo subyacente a un precio predeterminado en una fecha concreta", "Tiene el derecho de vender activo en el caso de que el comprador ejerza el derecho a comprar", "Tiene la obligación de vender el activo en el caso de que el comprador ejerza el derecho a comprar", "Tiene el derecho de comprar un activo subyacente a un precio predeterminado en una fecha concreta"],
  		"a": "4"
  	}, {
- 		"q": "En el caso de una compra, si el precio de la acción cae por debajo del precio de ejercicio...",
+ 		"q": "En el caso de una opción de compra, si el precio de la acción cae por debajo del precio de ejercicio...",
  		"o": ["las pérdidas son ilimitadas y desconocidas", "las pérdidas son limitadas y conocidas"],
  		"a": "2"
  	}, {
- 		"q": "En el caso de una venta, ",
- 		"o": ["", "", "", ""],
- 		"a": ""
+ 		"q": "Un inversor que crea un Long Straddle:",
+ 		"o": ["Está largo en la acción", "Está corto en la acción", "Cree que el precio de la acción permanecerá relativamente estable", "Cree que el precio de la acción se moverá drásticamente, pero no está seguro en que dirección"],
+ 		"a": "4"
  	}, {
  		"q": "La prima de una opción...",
  		"o": ["Es el precio que el comprador de una opción (put o call) paga al vendedor", "Es el precio que el vendedor de una opción (put o call) paga al comprador", "Son los intereses acumulados de la opción", "Varía en función de la capitalización de mercado del activo subyacente"],
  		"a": "1"
  	}]
  }, {
- 	"list": [{ //listasss vision
- 		"q": "La visión existe gracias a...",
- 		"o": ["La luz", "El calor", "Que captamos imágenes", "Todas las anteriores"],
+ 	"list": [{
+ 		"q": "El precio del futuro se moverá, con respecto al valor del activo subyacente...",
+ 		"o": ["De forma paralela", "Proporcionalmente mayor", "Proporcionalmente menor", "Dos veces"],
  		"a": "1"
  	}, {
- 		"q": "Parte del ojo que posee bastones y conos...",
- 		"o": ["Esclerótica", "Coroides", "Cristalino", "Retina"],
- 		"a": "4"
- 	}, {
- 		"q": "Recibo estímulos luminosos y me encuentro en la retina ¿Quién soy?",
- 		"o": ["Interoceptor", "Fotoceptor", "Nervio óptico", "Ninguna de las anteriores"],
- 		"a": "4"
- 	}, {
- 		"q": "¿Cuántos tipos de receptores existen en el ojo?",
- 		"o": ["3", "1", "2", "6"],
+ 		"q": "Cuando se contrata un futuro, no se tiene que pagar el valor del activo subyacente, sino que únicamente se aportan unas garantías (porcentuales) del precio de lo que se negocia en el mercado, las cuales oscilan entre:",
+ 		"o": ["50% y 60%", "30% y 40%", "10% y 20%", "15% y 20%"],
  		"a": "3"
  	}, {
- 		"q": "¿Qué parte del ojo se contrae con la presencia de mucha luz?",
- 		"o": ["Pupila", "Cristalino", "Párpados", "Iris"],
- 		"a": "4"
- 	}, {
- 		"q": "¿Qué defecto ocasiona que la imagen se forma delante de la retina?",
- 		"o": ["Miopía", "Astigmatismo", "Presbicia", "Ninguna de las anteriores"],
- 		"a": "1"
- 	}, {
- 		"q": "¿Cuál de estas afirmaciones es correcta?",
- 		"o": ["El ojo capta imágenes", "El iris es un tabique", "La retina es la capa más externa del ojo", "Ninguna es correcta"],
+ 		"q": "Si el precio del activo subyacente a la fecha pactada es superior al pactado en la operación:",
+ 		"o": ["El vendedor de futuros obtendrá beneficios", "El comprador de futuros obtendrá beneficios", "Se anula la operación", "El vendedor puede extender la fecha para evitar una pérdida"],
  		"a": "2"
  	}, {
- 		"q": "¿Quién se encarga de lograr la visión binocular?",
- 		"o": ["Cristalino", "Músculos intrínsecos", "El iris", "Ninguna de las anteriores"],
- 		"a": "4"
- 	}, {
- 		"q": "Líquido con consistencia gelatinosa que mantiene al ojo con una forma redonda...",
- 		"o": ["Humor acuoso", "Cristalino", "Liquido óptico-neuronal", "Humor vítreo"],
- 		"a": "4"
- 	}, {
- 		"q": "La única parte del interior del ojo que no tiene retina",
- 		"o": ["Coroides", "Todo su interior tiene retina", "Punto ciego", "Ninguna de las anteriores"],
+ 		"q": "Si el precio del activo subyacente a la fecha pactada es inferior al pactado en la operación:",
+ 		"o": ["El comprador de futuros obtendrá beneficios", "El comprador puede extender la fecha hasta que iguale al precio", "El vendedor de futuros obtendrá beneficios", "Se anula la operación"],
  		"a": "3"
+ 	}, {
+ 		"q": "Quien compra futuros se dice que está:",
+ 		"o": ["Largo en Futuros", "Corto en Futuros", "Protegido en Futuros", "Indexado en Futuros"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "En el mercado de futuros, aún cuando el intercambio de bienes y dinero sucederá obligatoriamente en el futuro: ",
+ 		"o": ["No se debe depositar garantía", "El comprador debe depositar una garantía", "El venededor debe depositar una garantía", "Ambas partes deben depositar una garantía"],
+ 		"a": "4"
+ 	}, {
+ 		"q": "En el mercado de Futuros los títulos subyacentes son entregados:",
+ 		"o": ["Por el vendedor", "A través de una cámara de compensación", "Por el comprador", "A través del banco"],
+ 		"a": "2"
+ 	}, {
+ 		"q": "Si la líquidez del contrato de Futuro es baja,...",
+ 		"o": ["El contrato desaparecerá", "El contrato se mantiene vigente pero la prima es mayor", "El precio del contrato se eleva", "La fecha se debe prolongar"],
+ 		"a": "1"
+ 	}, {
+ 		"q": "Una empresa tiene un gran inventario de activos que no puede vender hasta una fecha posterior y desea fijar el precio. ¿Qué debería hacer la empresa?"
+ 		"o": ["Comprar un contrato de futuro de los mismos activos", "Vender un contrato a futuro de activos diferentes", "Vender un contrato de futuro de los mismos activos", "Comprar un contrato de futuro de activos diferentes"],
+ 		"a": "3"
+ 	}, {
+ 		"q": "Una cobertura larga o Long Hedging quiere decir que:",
+ 		"o": ["Se está largo en el activo y corto en el futuro", "Se está corto en el activo y largo en el futuro", "Se esta largo en el activo y largo en el futuro", "Se está corto en el activo y corto en el futuro"],
+ 		"a": "2"
  	}]
  }]}
 
