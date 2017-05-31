@@ -242,7 +242,7 @@ QandAObj = { "qa":[{
  		"o": ["El contrato desaparecerá", "El contrato se mantiene vigente pero la prima es mayor", "El precio del contrato se eleva", "La fecha se debe prolongar"],
  		"a": "1"
  	}, {
- 		"q": "Una empresa tiene un gran inventario de activos que no puede vender hasta una fecha posterior y desea fijar el precio. ¿Qué debería hacer la empresa?"
+ 		"q": "Una empresa tiene un gran inventario de activos que no puede vender hasta una fecha posterior y desea fijar el precio. ¿Qué debería hacer la empresa?",
  		"o": ["Comprar un contrato de futuro de los mismos activos", "Vender un contrato a futuro de activos diferentes", "Vender un contrato de futuro de los mismos activos", "Comprar un contrato de futuro de activos diferentes"],
  		"a": "3"
  	}, {
