@@ -211,7 +211,7 @@ QandAObj = { "qa":[{
  }, {
  	"list": [{
  		"q": "El precio del futuro se moverá, con respecto al valor del activo subyacente...",
- 		"o": ["De forma paralela", "Proporcionalmente mayor", "Proporcionalmente menor", "Dos veces"],
+ 		"o": ["De forma paralela", "Proporcionalmente mayor", "Proporcionalmente menor", "Dos veces mayor"],
  		"a": "1"
  	}, {
  		"q": "Cuando se contrata un futuro, no se tiene que pagar el valor del activo subyacente, sino que únicamente se aportan unas garantías (porcentuales) del precio de lo que se negocia en el mercado, las cuales oscilan entre:",
@@ -250,7 +250,7 @@ QandAObj = { "qa":[{
  		"o": ["Se está largo en el activo y corto en el futuro", "Se está corto en el activo y largo en el futuro", "Se esta largo en el activo y largo en el futuro", "Se está corto en el activo y corto en el futuro"],
  		"a": "2"
  	}]
- }]}
+ }]};
 
 
 
