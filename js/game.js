@@ -71,7 +71,7 @@
 					$( "#progressbar" ).progressbar({
 						value: qaTimer
 					});
-					qaTimer = qaTimer + 10;
+					qaTimer = qaTimer + 5;
 				}
 			}, 1000);
 
